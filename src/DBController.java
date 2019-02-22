@@ -16,7 +16,6 @@ class DBController {
 
         if ( connect == null ) {
             try {
-//                Class.forName ( "com.mysql.jdbc.Driver" );
                 connect = DriverManager.getConnection (
                         SERVER + USER + "?user=" + USER + "&password=" + PASSWORD
                 );
